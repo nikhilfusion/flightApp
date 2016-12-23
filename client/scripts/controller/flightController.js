@@ -1,9 +1,6 @@
 'use strict';
 angular.module('flightApp').controller('flightController', ['$scope', 'flightService', function($scope, flightService) {
     
-    angular.element(document).ready(function () {
-        $('#example').DataTable();
-    });
     var vm = this;
     vm.tripType = 2;
     vm.toCity = {};
