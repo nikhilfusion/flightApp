@@ -1,5 +1,9 @@
 'use strict';
 angular.module('flightApp').controller('flightController', ['$scope', 'flightService', function($scope, flightService) {
+    
+    angular.element(document).ready(function () {
+        $('#example').DataTable();
+    });
     var vm = this;
     vm.tripType = 2;
     vm.toCity = {};
@@ -9,6 +13,7 @@ angular.module('flightApp').controller('flightController', ['$scope', 'flightSer
     vm.endDate = '';
     vm.minPrice = 0;
     vm.maxPrice = 0;
+    vm.minDate = moment(new Date).format("YYYY-MM-DD");
     vm.slider_options = {
         floor: vm.minPrice,
         ceil: vm.maxPrice,

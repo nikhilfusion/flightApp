@@ -20,6 +20,7 @@
     "bootstrap": "^3.3.7",
     "angular-bootstrap": "^2.3.1",
     "angularjs-slider": "^5.9.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "moment": "^2.17.1"
   }
 }
