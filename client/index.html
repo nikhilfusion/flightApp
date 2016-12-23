@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Flight Search App</title>
-</head>
-<body ng-app="flightApp">
-	<div ng-controller="mainCtrl">
-		<div ui-view-=""></div>
-	</div>
-<script src="../bower_components/angular/angular.min.js"></script>
-<script src="app.js"></script>
-</body>
+	<head>
+		<base href="/">
+		<title>Flight Search App</title>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="bower_components/angularjs-slider/dist/rzslider.css" />
+	</head>
+	<body ng-app="flightApp">
+		<div>
+			<div ui-view=""></div>
+		</div>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/angular/angular.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+		<script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+		<script src="bower_components/angularjs-slider/dist/rzslider.min.js"></script>
+		<script src="bower_components/underscore/underscore-min.js"></script>
+		<script src="app.js"></script>
+		<script src="scripts/controller/flightController.js"></script>
+		<script src="scripts/service/flightService.js"></script>
+		<script src="scripts/filter/flightFilter.js"></script>
+	</body>
 </html>

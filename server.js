@@ -37,9 +37,8 @@ app.post('/api/flights', function(req, res) {
             return false;
         }
     });
-    console.log(searchResult);
     res.json(searchResult); // return search result
 });
 
-app.listen(9000);
-console.log('app is running on port 9000');
+app.listen(8000);
+console.log('app is running on port 8000');

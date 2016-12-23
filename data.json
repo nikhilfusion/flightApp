@@ -24,7 +24,7 @@
             "to_city_id": 2,
             "title": "SpiceJet",
             "time": "6:20 PM",
-            "duration": "2h 7m",
+            "duration": 200,
             "price": 3361
         },
         {
@@ -33,7 +33,7 @@
             "to_city_id": 4,
             "title": "IndiGo",
             "time": "9:54 PM",
-            "duration": "3h 39m",
+            "duration": 132,
             "price": 4602
         },
         {
@@ -42,7 +42,7 @@
             "to_city_id": 1,
             "title": "SpiceJet",
             "time": "19:54 PM",
-            "duration": "5h 49m",
+            "duration": 145,
             "price": 2802
         },
         {
@@ -51,7 +51,7 @@
             "to_city_id": 4,
             "title": "AirIndia",
             "time": "23:1 AM",
-            "duration": "5h 0m",
+            "duration": 155,
             "price": 2244
         },
         {
@@ -60,7 +60,7 @@
             "to_city_id": 1,
             "title": "SpiceJet",
             "time": "10:27 AM",
-            "duration": "3h 53m",
+            "duration": 156,
             "price": 5044
         },
         {
@@ -69,7 +69,7 @@
             "to_city_id": 3,
             "title": "KingFisher",
             "time": "13:33 AM",
-            "duration": "2h 9m",
+            "duration": 145,
             "price": 2196
         },
         {
@@ -78,7 +78,7 @@
             "to_city_id": 1,
             "title": "KingFisher",
             "time": "11:57 AM",
-            "duration": "8h 18m",
+            "duration": 198,
             "price": 7339
         },
         {
@@ -87,7 +87,7 @@
             "to_city_id": 3,
             "title": "SpiceJet",
             "time": "14:54 PM",
-            "duration": "4h 47m",
+            "duration": 144,
             "price": 4408
         },
         {
@@ -96,7 +96,7 @@
             "to_city_id": 4,
             "title": "KingFisher",
             "time": "16:23 AM",
-            "duration": "6h 25m",
+            "duration": 132,
             "price": 7021
         },
         {
@@ -105,7 +105,7 @@
             "to_city_id": 1,
             "title": "AirIndia",
             "time": "10:39 PM",
-            "duration": "3h 41m",
+            "duration": 114,
             "price": 4958
         },
         {
@@ -114,7 +114,7 @@
             "to_city_id": 3,
             "title": "KingFisher",
             "time": "0:19 AM",
-            "duration": "5h 47m",
+            "duration": 211,
             "price": 2300
         },
         {
@@ -123,7 +123,7 @@
             "to_city_id": 1,
             "title": "IndiGo",
             "time": "14:0 PM",
-            "duration": "5h 50m",
+            "duration": 325,
             "price": 3524
         },
         {
@@ -132,7 +132,7 @@
             "to_city_id": 2,
             "title": "AirIndia",
             "time": "10:24 PM",
-            "duration": "8h 26m",
+            "duration": 119,
             "price": 5561
         },
         {
@@ -141,7 +141,7 @@
             "to_city_id": 1,
             "title": "SpiceJet",
             "time": "3:2 AM",
-            "duration": "3h 49m",
+            "duration": 196,
             "price": 4048
         },
         {
@@ -150,7 +150,7 @@
             "to_city_id": 4,
             "title": "AirIndia",
             "time": "22:17 AM",
-            "duration": "4h 17m",
+            "duration": 221,
             "price": 7365
         },
         {
@@ -159,7 +159,7 @@
             "to_city_id": 3,
             "title": "KingFisher",
             "time": "19:35 PM",
-            "duration": "8h 24m",
+            "duration": 165,
             "price": 3382
         },
         {
@@ -168,7 +168,7 @@
             "to_city_id": 3,
             "title": "SpiceJet",
             "time": "19:19 AM",
-            "duration": "4h 11m",
+            "duration": 164,
             "price": 3784
         },
         {
@@ -177,7 +177,7 @@
             "to_city_id": 3,
             "title": "SpiceJet",
             "time": "1:11 PM",
-            "duration": "8h 19m",
+            "duration": 132,
             "price": 5785
         },
         {
@@ -186,7 +186,7 @@
             "to_city_id": 2,
             "title": "SpiceJet",
             "time": "15:59 AM",
-            "duration": "4h 59m",
+            "duration": 165,
             "price": 5767
         },
         {
@@ -195,7 +195,7 @@
             "to_city_id": 1,
             "title": "KingFisher",
             "time": "7:1 AM",
-            "duration": "8h 16m",
+            "duration": 189,
             "price": 6483
         },
         {
@@ -204,7 +204,7 @@
             "to_city_id": 1,
             "title": "IndiGo",
             "time": "13:50 PM",
-            "duration": "8h 10m",
+            "duration": 113,
             "price": 3244
         },
         {
@@ -213,7 +213,7 @@
             "to_city_id": 4,
             "title": "SpiceJet",
             "time": "20:38 PM",
-            "duration": "6h 19m",
+            "duration": 144,
             "price": 7645
         },
         {
@@ -221,8 +221,8 @@
             "from_city_id": 4,
             "to_city_id": 3,
             "title": "SpiceJet",
-            "time": "0:4 AM",
-            "duration": "6h 1m",
+            "time": "00:40 AM",
+            "duration": 198,
             "price": 3534
         },
         {
@@ -231,7 +231,7 @@
             "to_city_id": 4,
             "title": "KingFisher",
             "time": "7:42 AM",
-            "duration": "4h 6m",
+            "duration": 165,
             "price": 6397
         },
         {
@@ -240,7 +240,7 @@
             "to_city_id": 2,
             "title": "KingFisher",
             "time": "6:57 PM",
-            "duration": "6h 51m",
+            "duration": 411,
             "price": 6858
         },
         {
@@ -249,7 +249,7 @@
             "to_city_id": 2,
             "title": "KingFisher",
             "time": "13:18 PM",
-            "duration": "5h 19m",
+            "duration": 319,
             "price": 2940
         },
         {
@@ -258,7 +258,7 @@
             "to_city_id": 1,
             "title": "SpiceJet",
             "time": "12:44 PM",
-            "duration": "3h 14m",
+            "duration": 164,
             "price": 5844
         },
         {
@@ -266,8 +266,8 @@
             "from_city_id": 3,
             "to_city_id": 4,
             "title": "IndiGo",
-            "time": "1:3 AM",
-            "duration": "3h 41m",
+            "time": "01:30 AM",
+            "duration": 221,
             "price": 6783
         },
         {
@@ -276,7 +276,7 @@
             "to_city_id": 3,
             "title": "KingFisher",
             "time": "7:26 PM",
-            "duration": "3h 37m",
+            "duration": 217,
             "price": 4438
         },
         {
@@ -285,7 +285,7 @@
             "to_city_id": 2,
             "title": "AirIndia",
             "time": "23:5 PM",
-            "duration": "5h 57m",
+            "duration": 357,
             "price": 5631
         },
         {
@@ -294,7 +294,7 @@
             "to_city_id": 3,
             "title": "AirIndia",
             "time": "6:35 AM",
-            "duration": "4h 29m",
+            "duration": 269,
             "price": 7367
         },
         {
@@ -303,7 +303,7 @@
             "to_city_id": 4,
             "title": "IndiGo",
             "time": "19:33 AM",
-            "duration": "3h 39m",
+            "duration": 279,
             "price": 2578
         },
         {
@@ -312,7 +312,7 @@
             "to_city_id": 4,
             "title": "IndiGo",
             "time": "7:52 AM",
-            "duration": "8h 50m",
+            "duration": 530,
             "price": 4686
         },
         {
@@ -321,7 +321,7 @@
             "to_city_id": 2,
             "title": "IndiGo",
             "time": "7:11 AM",
-            "duration": "7h 21m",
+            "duration": 441,
             "price": 4144
         },
         {
@@ -329,8 +329,8 @@
             "from_city_id": 1,
             "to_city_id": 2,
             "title": "KingFisher",
-            "time": "15:0 PM",
-            "duration": "7h 16m",
+            "time": "15:04 PM",
+            "duration": 375,
             "price": 3753
         },
         {
@@ -339,7 +339,7 @@
             "to_city_id": 3,
             "title": "AirIndia",
             "time": "10:33 AM",
-            "duration": "5h 42m",
+            "duration": 237,
             "price": 2378
         },
         {
@@ -348,7 +348,7 @@
             "to_city_id": 1,
             "title": "SpiceJet",
             "time": "21:25 PM",
-            "duration": "8h 23m",
+            "duration": 132,
             "price": 6725
         },
         {
@@ -357,7 +357,7 @@
             "to_city_id": 2,
             "title": "IndiGo",
             "time": "14:38 AM",
-            "duration": "4h 53m",
+            "duration": 156,
             "price": 6276
         },
         {
@@ -366,7 +366,7 @@
             "to_city_id": 1,
             "title": "SpiceJet",
             "time": "3:55 PM",
-            "duration": "8h 21m",
+            "duration": 221,
             "price": 6856
         },
         {
@@ -375,7 +375,7 @@
             "to_city_id": 4,
             "title": "IndiGo",
             "time": "0:50 PM",
-            "duration": "3h 27m",
+            "duration": 119,
             "price": 7058
         },
         {
@@ -384,7 +384,7 @@
             "to_city_id": 4,
             "title": "SpiceJet",
             "time": "1:15 PM",
-            "duration": "2h 34m",
+            "duration": 156,
             "price": 3902
         },
         {
@@ -393,7 +393,7 @@
             "to_city_id": 4,
             "title": "SpiceJet",
             "time": "6:55 PM",
-            "duration": "2h 15m",
+            "duration": 200,
             "price": 3793
         },
         {
@@ -402,7 +402,7 @@
             "to_city_id": 4,
             "title": "KingFisher",
             "time": "3:23 AM",
-            "duration": "5h 10m",
+            "duration": 163,
             "price": 5739
         }
     ]
