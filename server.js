@@ -25,7 +25,6 @@ app.get('/api/cities', function(req, res) {
 
 app.post('/api/flights', function(req, res) {
     searchParams = req.body;
-    console.log(req.body);
     var searchResult = flightObj.flights.filter(function(obj) {
         if (obj.to_city_id == obj.from_city_id) {
             return false;

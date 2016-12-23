@@ -62,7 +62,7 @@
 <div class="row" ng-if="flightCtrl.flights.length > 0">
     <div class="col-md-12">
         <ul class="list-group">
-            <li class="list-group-item" ng-repeat="flight in flightCtrl.flights">
+            <li class="list-group-item" ng-repeat="flight in flightCtrl.flights | orderBy : 'price'">
                 <div class="row">
                     <div class="col-md-2">{{flight.title}}</div>
                     <div class="col-md-5">
@@ -71,7 +71,7 @@
                         <p class="booking-item-destination" ng-if="flightCtrl.fromCity.id == flight.to_city_id">{{flightCtrl.toCity.title}}, {{flightCtrl.fromCity.title}} (RHL)</p>
                     </div>
                     <div class="col-md-2">
-                        <h5>{{flight.duration}}</h5>
+                        <h5>{{flight.duration | formatTime}}</h5>
                     </div>
                     <div class="col-md-3"><span class="booking-item-price">${{flight.price}}</span><span>/person</span>
                         <p class="booking-item-flight-class">Total Price: ${{flight.price*flightCtrl.passengers}}</p>
